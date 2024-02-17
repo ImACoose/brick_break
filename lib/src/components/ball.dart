@@ -44,6 +44,7 @@ class Ball extends CircleComponent
           // Modify from here...
           delay: 0.35,
         ));
+      }
       } else if (other is Bat) {
         velocity.y = -velocity.y;
         velocity.x = velocity.x +
@@ -53,4 +54,3 @@ class Ball extends CircleComponent
       }
     }
   }
-}
